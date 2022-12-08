@@ -1,0 +1,99 @@
+.card {
+  background-color: #fffaf2;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: -5px 10px 17px -11px rgba(0, 0, 0, 0.1);
+  width: 40rem;
+  color: #13143c;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 10px 0;
+}
+
+.row-1 {
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 40%;
+  width: 65px;
+}
+
+.profile .name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.profile .username {
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-top: 5px;
+}
+
+.progress {
+  width: 20rem;
+}
+
+.progress .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-icon {
+  font-size: 24px;
+  color: #16243c;
+}
+
+.progress .progress-bar {
+  height: 10px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #dfdfdf;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: '';
+  width: 80%;
+  height: 10px;
+  background-color: #f27b34;
+  position: absolute;
+}
+
+.description {
+  width: 15rem;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons button {
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.8rem;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.follow-btn {
+  background-color: #13143c;
+  color: #ffffff;
+  padding: 0.8rem 2.5rem;
+  border-radius: 5px;
+}
