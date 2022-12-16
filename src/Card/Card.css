@@ -97,3 +97,43 @@
   padding: 0.8rem 2.5rem;
   border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .progress,
+  .description,
+  .followers,
+  .icons,
+  .profile {
+    margin-bottom: 1rem;
+  }
+
+  .profile {
+    margin: auto;
+    text-align: center;
+  }
+
+  .icons {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .follow {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .follow-btn {
+    width: 90%;
+  }
+}

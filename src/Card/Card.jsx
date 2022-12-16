@@ -1,6 +1,6 @@
 import React from 'react';
+import { CardCTA } from './CardCTA';
 import './Card.css';
-import { GitHubIcon, GitlabIcon, Ethereum4Icon, LinkedInIcon } from './Icons';
 
 export const Card = () => (
   <div class="card">
@@ -25,28 +25,10 @@ export const Card = () => (
       <div class="description">
         MetaMask brings Ethereum to your web browser
       </div>
-      <div class="no-followers">
+      <div class="followers">
         <span class="highlight">4K</span> Followers
       </div>
     </div>
-    <div class="row row-3">
-      <div class="icons">
-        <button>
-          <GitHubIcon />
-        </button>
-        <button>
-          <LinkedInIcon />
-        </button>
-        <button>
-          <GitlabIcon />
-        </button>
-        <button>
-          <Ethereum4Icon />
-        </button>
-      </div>
-      <div>
-        <button class="follow-btn">Follow</button>
-      </div>
-    </div>
+    <CardCTA />
   </div>
 );
