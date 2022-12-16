@@ -17,7 +17,7 @@ export const Card = () => (
       <div class="progress">
         <div class="label">
           <div>6/8 Organizations</div>
-          <div class="info-icon">
+          <div class="info-icon" title="info">
             <InfoIcon />
           </div>
         </div>

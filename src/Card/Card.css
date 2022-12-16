@@ -67,6 +67,10 @@
   position: absolute;
 }
 
+.info-icon {
+  cursor: pointer;
+}
+
 .description {
   width: 15rem;
 }
@@ -124,6 +128,7 @@
 
   .profile {
     margin: auto;
+    margin-bottom: 1rem;
     text-align: center;
   }
 
