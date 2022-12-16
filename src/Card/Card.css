@@ -56,6 +56,7 @@
   background-color: #dfdfdf;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .progress-bar::before {
@@ -100,7 +101,11 @@
 
 @media (max-width: 600px) {
   .card {
-    width: 90%;
+    width: 100%;
+  }
+
+  .progress {
+    width: 100%;
   }
 
   .row {

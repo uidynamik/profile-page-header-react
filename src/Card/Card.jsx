@@ -1,6 +1,7 @@
 import React from 'react';
 import { CardCTA } from './CardCTA';
 import './Card.css';
+import { InfoIcon } from '../Card/Icons';
 
 export const Card = () => (
   <div class="card">
@@ -16,7 +17,9 @@ export const Card = () => (
       <div class="progress">
         <div class="label">
           <div>6/8 Organizations</div>
-          <div class="info-icon">&#x1F6C8;</div>
+          <div class="info-icon">
+            <InfoIcon />
+          </div>
         </div>
         <div class="progress-bar" />
       </div>
